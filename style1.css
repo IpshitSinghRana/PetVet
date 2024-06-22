@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    height: 6vw;
+    background-color: lightgray;
+}
+
+.search-input {
+    width: 40%;
+    height: 3vw;
+    margin-top: 2vh;
+    margin-left: 32%;
+}
+
+.mag {
+    height: 3.3vw;
+    width: 5vh;
+    background-color: rgb(164, 164, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 71.2vw;
+    margin-top: -3.3vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.addr {
+    height: 4vh;
+    width: 70vh;
+    margin-left: 15vw;
+    margin-top: -8.5vh;
+    border-radius: 1vh;
+}
+
+.addr1 {
+    margin-left: 15vw;
+    margin-top: -10vh;
+}
+
+.call,
+.van,
+.setting,
+.cart {
+    font-size: 2.8vh;
+    margin-top: -3.3vh;
+}
+
+.call {
+    margin-left: 86.1vw;
+}
+
+.van {
+    margin-left: 81.2vw;
+}
+
+.setting {
+    margin-left: 17.3vw;
+}
+
+.cart {
+    margin-left: 95.5vw;
+}
+
+.p1 {
+    font-size: 3vh;
+    font-weight: bold;
+    margin-left: 90.8vw;
+    margin-top: -4.7vh;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .search-input {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .mag {
+        margin-left: 90vw;
+    }
+
+    .addr {
+        width: 80vh;
+        margin-left: 10vw;
+    }
+
+    .call {
+        margin-left: 76.1vw;
+    }
+
+    .van {
+        margin-left: 71.2vw;
+    }
+
+    .setting {
+        margin-left: 7.3vw;
+    }
+
+    .cart {
+        margin-left: 85.5vw;
+    }
+
+    .p1 {
+        margin-left: 80.8vw;
+    }
+}
+.between{
+    height: 210vh;
+}
+.left{
+    background-color: lightyellow;
+    width: 20%;
+    height: 100%;
+}
+.checkbox-container{
+    font-size: 2.5vh;
+    margin-left: 8vh;
+    gap: 1vh;
+    display: block;
+}
+.p2{
+    font-size: 2.6vh;
+    font-weight: bold;
+    margin-left: 3vh;
+}
+.blackline{
+    padding: 1vh;
+}
+.right{
+    width: 80%;
+    height: 100%;
+}
+.between{
+    display: flex; /* This will place your divs side by side */
+}
+
+
+.box2{
+    background-color:white;
+    height: 48vh;
+    width: 20vh;
+    border-style: solid;
+    border-width: 0.1vh;
+}
+.box2 img{
+     height: 24vh;
+     margin-left: 3vh;
+     object-fit:cover;
+    
+}
+.name{
+    font-size: 2vh;
+    font-weight: bold;
+    padding-top: 2vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.price{
+    padding-top: 2vh;
+    font-size: 3vh;
+    color: red;
+}
+.b1{
+    background-color: rgb(255, 162, 0);
+    border-width: 0.3vh;
+    font-size: 2vh;
+    margin-left: 5vh;
+    margin-top: 2.5vh;
+    width: 22vh;
+    height: 4vh;
+    color: white;
+    font-weight: bold;
+}
+.del{
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+.del1{
+    margin-left: 4vh;
+    margin-top: -2.2vh;
+}
+.notification {
+    visibility: hidden; /* Hide the notification by default */
+    background-color: #555;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    bottom: 30px;
+    width: 30%;
+    left: 35%;
+}
+
+.notification.show {
+    visibility: visible; /* Show the notification when it has the 'show' class */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+.right {
+    display: flex; /* This will place your boxes side by side */
+    flex-wrap: wrap; /* This will move boxes to the next line when they don't fit on the current line */
+}
+
+.box2 {
+    flex: 1 0 21%; /* This will make each box take up roughly a quarter of the line (100% / 4 boxes = 25% per box, minus a bit for margins) */
+    margin: 1%; /* Optional: add a little margin around the boxes */
+    /* Add your box styles here (background color, borders, etc.) */
+}

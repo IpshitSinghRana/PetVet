@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.head{
+    width: 100%;
+    height: 6vw;
+    background-color: rgb(119, 119, 119);
+   
+}
+.logo img{
+   position: absolute;
+    height: 8vh;
+    border-radius: 50%;
+    margin-top:  -7vh;
+    margin-left: 4vh;
+}
+.petz{
+   position: absolute;
+   color: #FCC000;
+   margin-left: 15vh;
+   margin-top: 3vh;
+   font-size: 4vh;
+   font-weight: bold;
+}
+    .search-input{
+        width:63.2vh;
+        height: 3vw;
+        margin-top: 2vh;
+        margin-left: 30%;
+    }
+    .mag {
+        height: 48px;
+        width: 5vh;
+        background-color: rgb(214, 139, 0);
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-left: 116vh;
+        margin-top: -48px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .addr{
+      position: relative;
+        height: 4vh;
+        width: 15vh;
+        margin-left: 145vh;
+        margin-top: -65vh; 
+       border-radius: 1vh;
+    }
+    .addr1{
+        margin-left: 150vh;
+        margin-top: -10vh;
+    }
+    
+    .call{
+      position: absolute;
+        margin-left: 151vh;
+        margin-top: -9vh;
+        font-size: 2.8vh;
+    }
+    .van{
+        margin-left: 142vh;
+        margin-top: -3.3vh;
+        font-size: 2.8vh;
+    }
+    .setting {
+        margin-left: 173vh;
+        margin-top: -9vh;
+        font-size: 3vh;
+    }
+    .cart{
+        margin-left: 165vh;
+        font-size: 3vh;
+        margin-top: -3vh;
+    }
+    .p1{
+        font-size: 3vh;
+        font-weight: bold;
+        margin-left: 158vh;
+        margin-top: -4vh
+    }
+.img1 img{
+    width:100%;
+    height: 33vw;
+opacity: 1;
+}
+.between1{
+    height: 80vh;
+
+}
+.between1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7vh;
+    gap: 2vh; /* Adjust the gap between images */
+}
+.box1, .box2, .box3,.box4,.box5,.box6,.box7,.box8,.box9{
+    flex: 1; /* Distribute available space equally */
+    max-width: calc(33.33% - 10px); /* Adjust the width */
+    height: 2%; /* Maintain aspect ratio */
+}
+.between2{
+    height: 50vh;
+}
+.box1 img{
+ height: 40vh;
+}
+.shop{
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40%;
+    margin-top: 6vh;
+}
+.imgs img{
+    height: 38vh;
+}
+.imgs {
+    display: flex; /* Use flexbox */
+    gap: 10px; /* Adjust the gap between images */
+}
+
+/* Style each image box */
+.box2 {
+    flex: 1; /* Distribute available space equally */
+    max-width: calc(33.33% - 10px); /* Adjust the width */
+    height: auto; /* Maintain aspect ratio */
+}
+.box1{
+    scale: 0.5; opacity: 0;
+   animation: fade-in   6s linear forwards; 
+   animation-timeline: view(0vh 20vh);
+   animation-range: entry ;
+}
+@keyframes fade-in {
+    to {
+       scale: 1; opacity: 1;
+    }
+ }
+ .box2{
+    scale: 0.5; opacity: 0;
+   animation: fade-in   6s linear forwards; 
+   animation-timeline: view(0vh 20vh);
+   animation-range: entry ;
+}
+@keyframes fade-in {
+    to {
+       scale: 1; opacity: 1;
+    }
+ }
+ .shop{
+    scale: 0.5; opacity: 0;
+   animation: fade-in   6s linear forwards; 
+   animation-timeline: view(0vh 20vh);
+   animation-range: entry ;
+}
+@keyframes fade-in {
+    to {
+       scale: 1; opacity: 1;
+    }
+ }
+ .between3{
+    height: 45vh;
+    background-color: #edffaa;
+    margin-top: -2vh;
+ }
+ .vid1 video{
+    height: 50vh;
+    width: 70vh;
+    margin-left: 4vh;
+ }
+ .dealbox{
+    background-color: #edffaa;
+    border: 0.3vh;
+    border-color: black;
+    border-style:solid;
+    height: 29vh;
+    width: 22vh;
+    margin-top: -40vh;
+    margin-left: 80vh;
+ }
+ .dealbox img{
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+ }
+ .dealp1{
+    color: red;
+    margin-left: 1vh;
+    font-weight: bold;
+    margin-top: 1vh;
+ }
+ .dealp2{
+    color: black;
+    font-size: 2vh;
+    font-weight: bold;
+ }
+ .dealbox1{
+    background-color: #edffaa;
+    border: 0.3vh;
+    border-color: black;
+    border-style:solid;
+    height: 29vh;
+    width: 22vh;
+    margin-top: -29.6vh;
+    margin-left: 110vh;
+ }
+ .dealbox1 img{
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+ }
+ .dealbox2{
+    background-color: #edffaa;
+    border: 0.3vh;
+    border-color: black;
+    border-style:solid;
+    height: 29vh;
+    width: 22vh;
+    margin-top: -29.6vh;
+    margin-left: 140vh;
+ }
+ .dealbox2 img{
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+ }
+ .between3{
+    scale: 0.5; opacity: 0;
+   animation: fade-in   6s linear forwards; 
+   animation-timeline: view(0vh 20vh);
+   animation-range: entry ;
+}
+@keyframes fade-in {
+    to {
+       scale: 1; opacity: 1;
+    }
+ }
+ .between4{
+    height: 45vh;
+    margin-top: 3vh;
+ }
+ .between4 img{
+    width: 100%;
+ }
+ .between4{
+    scale: 0.5; opacity: 0;
+   animation: fade-in   6s linear forwards; 
+   animation-timeline: view(0vh 20vh);
+   animation-range: entry ;
+}
+@keyframes fade-in {
+    to {
+       scale: 1; opacity: 1;
+    }
+ }
+ .between5{
+    height: 50vh;
+    background-color: #edffaa;
+ }
+ .rain{
+   font-size: 5vh;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   margin-left: 66vh;
+   
+ }
+ .rainimg{
+   display: flex;
+   gap: 5.5vh;
+ }
+ .dealbox3{
+  
+   border: 0.3vh;
+   border-color: black;
+   border-style:solid;
+   height: 39vh;
+   width: 28vh;
+   margin-top: 2vh;
+   margin-left: 2vh;
+   border-radius: 1vh;
+}
+.dealbox3 img{
+   width: 100%;
+   height: 70%;
+   object-fit: fill;
+}
+.between5{
+   scale: 0.5; opacity: 0;
+  animation: fade-in   6s linear forwards; 
+  animation-timeline: view(0vh 20vh);
+  animation-range: entry ;
+}
+@keyframes fade-in {
+   to {
+      scale: 1; opacity: 1;
+   }
+}
+.between6{
+   height: 50vh;
+}
+.between6 img{
+   width: 100%;
+}
+.between6{
+   scale: 0.5; opacity: 0;
+  animation: fade-in   6s linear forwards; 
+  animation-timeline: view(0vh 20vh);
+  animation-range: entry ;
+}
+@keyframes fade-in {
+   to {
+      scale: 1; opacity: 1;
+   }
+}
+.between7{
+   margin-top: -2vh;
+   height: 10vh;
+}
+.between8{
+     height: 20vh;
+}
+.follow{
+   font-size: 3.3vh;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   margin-left: 5vh;
+}
+.icons {
+   display: flex;
+   gap: 2vh;
+   font-size: 3vh;
+   margin-top: 2vh;
+   margin-left: 5vh;
+}
+.endpetz{
+      font-size: 3vh;
+      margin-left: 84vh;
+      margin-top: 12vh;
+}
+.phone{
+   font-size: 3vh;
+   margin-left: 130vh;
+}
+.phonep{
+    font-size:  3vh; 
+    margin-left:  130vh; 
+    margin-top: -12vh;
+    font-weight: bold;
+}
+.call{
+   margin-top: 5vh;
+   margin-left: 135vh;
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <input placeholder="Search Amazon"class="search-input">
+       <div class="mag "><i class="fa-solid fa-magnifying-glass"></i></div>
+        <p class="p1">Cart</p>
+        <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="call"><i class="fa-solid fa-phone"></i></div>
+        <div class="van"><i class="fa-solid fa-truck-front"></i></div>
+       </div>
+       <div class="between">
+       <div class="left">
+        <!---BRAND ------------------------------------>
+        <hr class="blackline">
+        <p class="p2"> Brand</p>
+        <label class="checkbox-container">
+           
+            <input type="checkbox"> Royal Canin (89)
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Chip Chops (56)
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Pedigree (33)
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Jerhigh (37)
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Drools (77)
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> SmartHeart (24)
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Bark out loud (44)
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Henlo (34)
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Paw Family (56) 
+        </label>
+        <hr class="blackline">
+        <!--BOX 2  FLAVOURS -------------------------------------------->
+        <div class="p2"> Flavour</div>
+        <label class="checkbox-container">
+            <input type="checkbox"> Chicken (678) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Vegetables (556) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Multiple  (456) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Sea Food (57) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox">  Eggs (56) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Lamb (46) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Fish (54) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Turkey (26) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Duck (7) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Lamb  (11) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox">  Banana (1) 
+        </label>
+        <hr class="blackline">
+        <!----------BOX3 PRODUCTS---------------------------------------------->
+        <div class="p2"> Product type</div>
+        <label class="checkbox-container">
+            <input type="checkbox">  Dry Food (120) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox">  Wet Food (416) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox">  Puppy Food (123) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox">  Jerky Treats (14) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox">  Biscuits (71) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox">  Ropes Toys (31) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox">  Tug Toys (45) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox">  Bones  (57) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Oral Care  (32) 
+        </label>
+        <label class="checkbox-container">
+            <input type="checkbox"> Balls Toys (45) 
+        </label>
+        <hr class="blackline">
+       </div> 
+       <!--- -------END OF LEFT SIDE    START OF RIGHT SIDE ---------------------------------------------------------------- -->
+    <div class="right">
+
+        <div class="box2"><img src="image/catfood/1.webp"><pre class="name">  Sheba Chicken Flavour 
+  All Life Stage </pre><pre class="price"> ₹2720</pre>
+  <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+  <button class="b1" onclick="addToCart()">Add To Cart</button>
+<div id="notification" class="notification">Product added to cart</div>
+    </div>
+    <div class="box2"><img src="image/catfood/2.webp"><pre class="name">  Henlo Dry Baked
+  Food</pre><pre class="price"> ₹2099</pre>
+        <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+        <button class="b1" onclick="addToCart()">Add To Cart</button>
+      <div id="notification" class="notification">Product added to cart</div>
+          </div>
+          <div class="box2"><img src="image/catfood/3.webp"><pre class="name"> Royal Canin 
+ Maxi For Cats      </pre><pre class="price"> ₹9680</pre>
+            <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+            <button class="b1" onclick="addToCart()">Add To Cart</button>
+          <div id="notification" class="notification">Product added to cart</div>
+              </div>
+              <div class="box2"><img src="image/catfood/4.webp"><pre class="name"> Drools Creamy 
+ Treats      </pre><pre class="price"> ₹999</pre>
+                <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                <button class="b1" onclick="addToCart()">Add To Cart</button>
+              <div id="notification" class="notification">Product added to cart</div>
+                  </div>
+                  <div class="box2"><img src="image/catfood/5.webp"><pre class="name"> Sheba Chicken
+ For Cats Adult     </pre><pre class="price"> ₹2720</pre>
+                    <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                    <button class="b1" onclick="addToCart()">Add To Cart</button>
+                  <div id="notification" class="notification">Product added to cart</div>
+                      </div>
+                      <div class="box2"><img src="image/catfood/6.webp"><pre class="name"> Royal Canin Maxi 
+ For Adults   </pre><pre class="price"> ₹2253</pre>
+                        <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                        <button class="b1" onclick="addToCart()">Add To Cart</button>
+                      <div id="notification" class="notification">Product added to cart</div>
+                          </div>
+                          <div class="box2"><img src="image/catfood/7.webp"><pre class="name"> Drools For 
+ All Life Stages</pre><pre class="price"> ₹567</pre>
+                            <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                            <button class="b1" onclick="addToCart()">Add To Cart</button>
+                          <div id="notification" class="notification">Product added to cart</div>
+                              </div>
+                              <div class="box2"><img src="image/catfood/8.webp"><pre class="name"> Pedigree Biscrock 
+                               </pre><pre class="price"> ₹950</pre>
+                                <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                                <button class="b1" onclick="addToCart()">Add To Cart</button>
+                              <div id="notification" class="notification">Product added to cart</div>
+                                  </div>
+                                  <div class="box2"><img src="image/catfood/Frame10478-529591.webp"><pre class="name"> Orijen Food 
+ For All Ages </pre><pre class="price"> ₹999</pre>
+                                    <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                                    <button class="b1" onclick="addToCart()">Add To Cart</button>
+                                  <div id="notification" class="notification">Product added to cart</div>
+                                      </div>
+                                      <div class="box2"><img src="image/catfood/10.webp"><pre class="name"> Pedigree Dentastix 
+                                        </pre><pre class="price"> ₹5998</pre>
+                                        <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                            <button class="b1" onclick="addToCart()">Add To Cart</button>
+                          <div id="notification" class="notification">Product added to cart</div>
+                              </div>
+                            <div class="box2"><img src="image/catfood/11.webp"><pre class="name"> N&D Meat For
+ Everyone</pre><pre class="price"> ₹5499</pre>
+                                            <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                                            <button class="b1" onclick="addToCart()">Add To Cart</button>
+                                          <div id="notification" class="notification">Product added to cart</div>
+                                              </div>
+                                              <div class="box2"><img src="image/catfood/12.webp"><pre class="name"> Kenel Kitchen
+                                            </pre><pre class="price"> ₹2499</pre>
+                                                        <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                                                        <button class="b1" onclick="addToCart()">Add To Cart</button>
+                                                      <div id="notification" class="notification">Product added to cart</div>
+                                                          </div>
+                                                          <div class="box2"><img src="image/catfood/13.webp"><pre class="name"> 
+                                                        </pre><pre class="price"> ₹2499</pre>
+                                                                    <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                                                                    <button class="b1" onclick="addToCart()">Add To Cart</button>
+                                                                  <div id="notification" class="notification">Product added to cart</div>
+                                                                      </div>
+                                                                      <div class="box2"><img src="image/catfood/14.webp"><pre class="name"> 
+                                                                    </pre><pre class="price"> ₹4675</pre>
+                                                                                <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                                                                                <button class="b1" onclick="addToCart()">Add To Cart</button>
+                                                                              <div id="notification" class="notification">Product added to cart</div>
+                                                                                  </div>                                                   
+                                                                                  <div class="box2"><img src="image/catfood/15.webp"><pre class="name"> 
+                                                                                </pre><pre class="price"> ₹782</pre>
+                                                                                            <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                                                                                            <button class="b1" onclick="addToCart()">Add To Cart</button>
+                                                                                          <div id="notification" class="notification">Product added to cart</div>
+                                                                                              </div>
+                                                                                              <div class="box2"><img src="image/catfood/16.webp"><pre class="name"> 
+                                                                                            </pre><pre class="price"> ₹2112</pre>
+                                                                                                        <div class="del"><i class="fa-sharp fa-solid fa-truck"></i><p class="del1">Fri,24 May </p></div>
+                                                                                                        <button class="b1" onclick="addToCart()">Add To Cart</button>
+                                                                                                      <div id="notification" class="notification">Product added to cart</div>
+                                                                                                          </div>
+                                                                                                         
+    </div>   
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
